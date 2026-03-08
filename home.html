@@ -51,7 +51,12 @@
 
     <!-- top button section -->
 
-    
+    <section class="flex justify-center md:justify-start gap-3 bg-base-100 shadow-sm p-5">
+      <button onclick="toggleStyle('all-btn'), loadAllCards()" id="all-btn"
+        class="btn top-btn bg-primary text-white">All</button>
+      <button onclick="toggleStyle('open-btn'),loadOpenCard()" id="open-btn" class="btn top-btn">Open</button>
+      <button onclick="toggleStyle('closed-btn'),loadClosedCard()" id="closed-btn" class="btn top-btn">Closed</button>
+    </section>
 
     <!-- count issues section -->
 
