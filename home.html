@@ -60,7 +60,31 @@
 
     <!-- count issues section -->
 
+    <section class="bg-base-100 shadow-sm p-5 mt-9">
+      <div class="grid grid-cols-1 md:grid-cols-2 justify-between items-center border-b-neutral-500">
+        <div class="flex gap-2 items-center">
+          <div class="w-12 h-12 bg-purple-200 rounded-full"><img src="./assets/Aperture.png" alt="" class=" mx-auto my-2">
+          </div>
+          <div>
+            <h2 class="text-xl font-semibold"><span id="count">0</span> Issues</h2>
+            <p class="text-[16px] text-[#64748B]">Track and manage your project issues</p>
+          </div>
+        </div>
+        <div class=" flex justify-end gap-3">
+          <!-- open -->
+          <div class="flex items-center gap-2">
+            <span class="h-3 w-3 bg-green-700 rounded-full"></span>
+            <p>Open</p>
+          </div>
+          <!-- closed -->
+          <div class="flex items-center gap-2">
+            <span class="h-3 w-3 bg-[#A855F7] rounded-full"></span>
+            <p>Closed</p>
+          </div>
+        </div>
     
+      </div>
+    </section>
 
     <!-- card section -->
     <section class="bg-base-200 shadow-sm pt-5">
@@ -80,9 +104,9 @@
     <dialog id="card_modal" class="modal modal-bottom sm:modal-middle">
       <div class="modal-box">
         <div id="details-box">
-
-
-
+    
+    
+    
         </div>
         <div class="modal-action">
           <form method="dialog">
